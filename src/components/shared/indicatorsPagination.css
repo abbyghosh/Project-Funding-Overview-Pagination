@@ -9,7 +9,7 @@
   margin: 5px;
   cursor: pointer;
   border: none;
-  background-color: darkgray;
+  background-color: var(--primary-red-400);
   color: white;
 
   border-radius: 6px;
@@ -39,7 +39,7 @@
 }
 
 .pagination > .pagination__indicator.active {
-  background-color: grey;
+  background-color: var(--primary-red);
   color: white;
 }
 

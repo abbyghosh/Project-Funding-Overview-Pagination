@@ -4,6 +4,10 @@ table.funding-table {
   margin-bottom: 20px;
 }
 
+.funding-table tr th {
+  border-right: none;
+}
+
 .funding-table th,
 .funding-table td {
   border: 1px solid #ddd;
@@ -12,7 +16,8 @@ table.funding-table {
 }
 
 .funding-table th {
-  background-color: #f2f2f2;
+  background-color: var(--primary-red-100);
+  /* color: var(--primary-red); */
 }
 
 .funding-table .loading {
